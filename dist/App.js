@@ -18,7 +18,7 @@ import { Switch, Route } from 'react-router-dom';
 import Login from './containers/Login.jsx';
 import WaitingRoom from './containers/WaitingRoom.jsx';
 import SessionRoom from './containers/SessionRoom.jsx';
-import './styles.scss';
+// import './styles.scss';
 var App = /** @class */ (function (_super) {
     __extends(App, _super);
     function App(props) {

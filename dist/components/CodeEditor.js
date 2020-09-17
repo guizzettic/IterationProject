@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AceEditor from "react-ace";
+// import { XTerm } from "xterm-for-react";
 import socketIOClient from "socket.io-client";
 //socket connection to the server
 var socket = socketIOClient('http://localhost:3000');
