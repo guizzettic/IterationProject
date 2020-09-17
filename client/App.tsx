@@ -8,7 +8,7 @@ import WaitingRoom from './containers/WaitingRoom.jsx';
 import SessionRoom from './containers/SessionRoom.jsx';
 
 
-import './styles.scss';
+// import './styles.scss';
 
 class App extends Component {
   constructor(props) {

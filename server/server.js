@@ -7,7 +7,6 @@ const passportSetup = require('../config/passport-setup');
 const PORT = 3000;
 const cors = require('cors');
 
-
 const socketio = require('socket.io');
 const http = require('http'); 
 const server = http.createServer(app); 
@@ -30,7 +29,6 @@ io.on('connection', socket => {
 
 });
 
-
 // body parser
 app.use(bodyParser.json());
 
@@ -46,6 +44,5 @@ server.listen(PORT, () => {
 });
 
 module.exports = app;
-
 
 

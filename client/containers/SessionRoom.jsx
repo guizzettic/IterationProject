@@ -47,8 +47,8 @@ class SessionRoom extends Component {
           </center>
         </div>
         <center>
-        <div className="codeeditor">
-          <CodeEditor/>
+          <div className="codeeditor">
+            <CodeEditor/>
           </div>
           </center>
         <div className="level-language-form">
